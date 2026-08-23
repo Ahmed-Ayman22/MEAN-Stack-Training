@@ -1,0 +1,14 @@
+let itemPrice = 120;
+let quantity = 3;
+let total = itemPrice * quantity;
+let difference = 400 - total;
+let product = itemPrice * quantity;
+let division = itemPrice / quantity;
+let modulus = itemPrice % quantity;
+let power = itemPrice ** quantity;
+console.log("Total:", total);
+console.log("Difference:", difference);
+console.log("Product:", product);
+console.log("Division:", division);
+console.log("Modulus:", modulus);
+console.log("Power:", power);

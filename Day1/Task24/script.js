@@ -1,0 +1,12 @@
+var a = "15";
+var b = 15;
+var c = null;
+var d;
+var e = [15];
+var f = { value: 15 };
+console.log("a:", a, typeof a, a == 15, a === 15);
+console.log("b:", b, typeof b, b == 15, b === 15);
+console.log("c:", c, typeof c, c == 15, c === 15);
+console.log("d:", d, typeof d, d == 15, d === 15);
+console.log("e:", e, typeof e, e == 15, e === 15);
+console.log("f:", f, typeof f, f == 15, f === 15);

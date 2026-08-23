@@ -1,0 +1,12 @@
+var city1 = "Alex";
+var city2 = city1;
+city2 = "Giza";
+console.log(city1, city2);
+var car1 = { brand: "Toyota" };
+var car2 = car1;
+car2.brand = "Honda";
+console.log(car1, car2);
+var car3 = { brand: "Toyota" };
+var car4 = Object.assign({}, car3);
+car4.brand = "Honda";
+console.log(car3, car4);
